@@ -1,0 +1,76 @@
+{
+    "produts": [
+        {
+            "id": 1,
+            "name": "Canon EOS 800D, DSLR, 18-55mm STM Lens",
+            "image": "https://www.priceinkenya.com/_ipx/b_%23ffffff,f_webp,q_75,fit_contain,s_300x300/https://api.priceinkenya.com/media/123722/conversions/canon-eos-800d-with-18-55mm-stm-lens-x39u0BRaIh-original.webp",
+            "price": "KSh 101,400",
+            "likes": 0
+        },
+        {
+            "id": 2,
+            "name": "Canon EOS 850D, DSLR, 18-135mm USM Lens",
+            "image": "https://www.priceinkenya.com/_ipx/b_%23ffffff,f_webp,q_75,fit_contain,s_300x300/https://api.priceinkenya.com/media/123741/conversions/canon-eos-850d-with-18-135mm-usm-lens-BtxSKoI1eT-original.webp",
+            "price": "KSh 140,000",
+            "likes": 0
+        },
+        {
+            "id": 3,
+            "name": "Nikon D3500, DSLR, 18-55mm Lens",
+            "image": "https://www.priceinkenya.com/_ipx/b_%23ffffff,f_webp,q_75,fit_contain,s_300x300/https://api.priceinkenya.com/media/123918/conversions/nikon-d3500-with-18-55mm-lens-5eHJG8Bscn-original.webp",
+            "price": "KSh 65,100",
+            "likes": 0
+        },
+        {
+            "id": 4,
+            "name": "Watch IP67 Waterproof Bluetooth For Android ios smartwatch",
+            "image": "https://image.kilimall.com/kenya/shop/store/goods/7387/2022/03/7387_07007573898753547_720.jpg.webp",
+            "price": "KSh 4,605",
+            "likes": 0
+        },
+        {
+            "id": 5,
+            "name": "HUAWEI WATCH GT 2 Pro",
+            "image": "https://www.saruk.co.ke/images/92231634023060.jpeg",
+            "price": "Kshs. 24,999",
+            "likes": 0
+        },
+        {
+            "id": 6,
+            "name": "Samsung Galaxy Watch5 Bluetooth",
+            "image": "https://www.avicomm.co.ke/wp-content/uploads/2022/09/009_product_galaxy_watch5_silver_40mm_r_perspective.jpg",
+            "price": "KSh25,000",
+            "likes": 0
+        },
+        {
+            "id": 7,
+            "name": "HW20 Smart Watch ECG+PPG",
+            "image": "https://image.kilimall.com/kenya/shop/store/goods/8915/2023/03/16792745521372e00d7c615bb464eac89495883d45250_720.jpg.webp",
+            "price": "KSh 5,870",
+            "likes": 0
+        },
+        {
+            "id": 8,
+            "name": "Generic Foldable Wireless Stereo Sound,Ultra Compact Headphone",
+            "image": "https://ke.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/55/442353/1.jpg?2646",
+            "price": "KSh 900",
+            "likes": 0
+        },
+        {
+            "id": 9,
+            "name": "Jabra Evolve2 65 LINK380A MS Stereo",
+            "image": "https://www.saruk.co.ke/images/62901666340669.jpeg",
+            "price": "Kshs. 32,499",
+            "likes": 0
+        },
+        {
+            "id": 10,
+            "name": "SR-BH600 WIRELESS BLUETOOTH HEADPHONES",
+            "image": "https://www.ontime.co.ke/wp-content/uploads/2021/10/saramonic-bh-600-wireless-active-noise-cancelling-headphones.jpg",
+            "price": "KSh13,500",
+            "likes": 0
+        }
+
+
+    ]
+}
