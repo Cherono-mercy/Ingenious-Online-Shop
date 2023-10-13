@@ -19,10 +19,13 @@ function displayProducts(products){
             <p>${name}</p>
             <h2>${price}</h2>
             <button>Add to Cart</button>
+             </div>
              </div>`
     )
 
    }).join(" ")
 };
 getProducts();
+
+
 
