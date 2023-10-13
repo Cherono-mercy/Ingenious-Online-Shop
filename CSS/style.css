@@ -35,3 +35,27 @@ body{
     overflow-y: auto;
 }
 
+.fa-circle{
+    color: orangered;
+}
+
+.searchbar{
+    width: 100%;
+    background-color: #EEE;
+    border-radius: 3px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+input{
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.glass:hover{
+    color: orangered;
+    cursor: pointer;
+}
