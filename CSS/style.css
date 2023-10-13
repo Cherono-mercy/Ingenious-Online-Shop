@@ -59,3 +59,20 @@ input{
     color: orangered;
     cursor: pointer;
 }
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fa-brands{
+    font-size: 25px;
+    margin: 0 10px;
+    color: #333;
+    cursor: pointer;
+}
+
+.fa-brands:hover{
+    color: orangered;
+}
