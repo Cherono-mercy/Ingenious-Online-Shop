@@ -2,129 +2,116 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "poppins", "sans-serif";
+    font-family: "poppins", sans-serif;
     font-size: 18px;
 }
 
 body{
-    margin: 4vh;
-}
-
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.sidebar{
-    width: 25%;
-    border: apx solid #EEE;
-    border-radius: 3px;
-    padding: 15px;
-    height: 92vh;
-    box-shadow: 0px 0px 3px gray;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.data{
-    width: 73%;
-    border-radius: 3px;
-    height: 92vh;
-    overflow-y: auto;
-}
-
-.fa-circle{
-    color: orangered;
-}
-
-.searchbar{
-    width: 100%;
-    background-color: #EEE;
-    border-radius: 3px;
-    padding: 9px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-input{
-    border: none;
-    outline: none;
-    background: none;
-}
-
-.glass:hover{
-    color: orangered;
-    cursor: pointer;
-}
-
-.social-icons{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.fa-brands{
-    font-size: 25px;
-    margin: 0 10px;
-    color: #333;
-    cursor: pointer;
-}
-
-.fa-brands:hover{
-    color: orangered;
-}
-
-.top{
-    height: 60px;
-    border-radius: 3px;
-    background-color: #EEE;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 15px;
+    flex-direction: column;
 }
 
 .header{
-    height: 75px;
+    height: 80px;
+    width: 70%;
+    background-color: goldenrod;
     border-radius: 3px;
-    background-color: #333;
-    margin: 3vh 0;
+    margin: 30px 0px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 15px;
 }
 
-.header p{
-    font-size: 40px;
+.header .logo{
+    font-size: 30px;
     font-weight: bold;
     color: white;
 }
 
-#root {
-    width: 100%;
+.cart{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 10px;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.fa-solid{
+    color: goldenrod;
+
+}
+
+.cart p{
+    height: 22px;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 22px;
+    background-color: goldenrod;
+    color: white;
+}
+
+.container{
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+#main{
+    width: 60%;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
+}
+
+.sidebar{
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.head{
+    background-color: goldenrod;
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
 
 }
 
 .box{
-    margin: 1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #333;
+    border: 1px solid goldenrod;
     border-radius: 5px;
     padding: 15px;
 }
 
-.image-box{
+.image-box {
     width: 100%;
-    height: 176px;
+    height: 180px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -132,10 +119,11 @@ input{
 }
 
 .images{
-    max-height: 90%;
     max-width: 90%;
+    max-height: 90%;
     object-fit: cover;
     object-position: center;
+
 }
 
 .bottom{
@@ -147,11 +135,12 @@ input{
     align-items: center;
     justify-content: space-between;
     height: 110px;
+
 }
 
 h2{
     font-size: 20px;
-    color: orangered;
+    color: red;
 }
 
 button{
@@ -159,15 +148,13 @@ button{
     position: relative;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: goldenrod;
     padding: 7px 25px;
     cursor: pointer;
     color: white;
 }
+
 button:hover{
-    background-color: orangered;
+    background-color: #333;
 }
 
-::-webkit-scrollbar{
-    display: none;
-}
