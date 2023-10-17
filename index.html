@@ -8,24 +8,26 @@
     <link rel="stylesheet" href="CSS/style.css" />
   </head>
   <body>
-    <div class="header">
-      <p class="logo">SHOP NOW</p>
-      <div class="cart">
-        <i class="fa-solid fa-cart-shopping"></i>
-        <p id="count">0</p>
-      </div>
-    </div>
     <div class="container">
-        <div id="main"></div>
-        <div class="sidebar">
-            <div class="head"><p>My Cart</p></div>
-            <div id="cartItem">Your cart is empty</div>
-            <div class="foot">
-                <h3>Total</h3>
-                <h2 id="total">$ 0.00</h2>
+        <header>
+            <h1>Let's Go Shopping!</h1>
+            <div class="shopping">
+              <img src="images/shoppingBag.png" alt="">
+              <span class="quantity">0</span>
             </div>
+        </header>
+        <div class="list"></div>
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCart"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
         </div>
     </div>
+
+  
 
     <script src="index.js"></script>
   </body>
