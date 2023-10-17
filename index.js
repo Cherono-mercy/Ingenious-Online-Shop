@@ -81,7 +81,7 @@ function reloadCart(){
             newDiv.innerHTML = `
             <div><img src="${value.image}"/></div>
             <div>${value.title}</div>
-            <div>${value.quantity}</div>
+            <div>${value.price}</div>
             <div>
             <button onclick="changeQuantity(${key}, ${value.quantity - 1})">-</button>
             <div class="count">${value.quantity}</div>
